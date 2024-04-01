@@ -4,6 +4,11 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+i{
+    color: white;
 }
 
 /* Navbar   */
@@ -80,4 +85,42 @@
 
 .navbar-icons #icon-2:hover{
     color: wheat;
+}
+
+
+.banner-section{
+    background: url('/Educational-Website-using-HTML-CSS-JS/Hero\ Section\ Image.png') no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+.banner-content{
+    position: relative;;
+    top:9rem;
+    left: 20rem;
+}
+
+.banner-image{
+    position: relative;
+    left: 18rem;
+}
+
+.banner-image img{
+    border-radius: 2.5rem;
+    width: 120px;
+}
+
+.banner-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    background-color: palegoldenrod;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
 }
