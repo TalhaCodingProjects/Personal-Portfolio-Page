@@ -11,7 +11,10 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 1.3rem;
+    /* margin-top: 1.3rem; */
+    height: 7.5vh;
+    background-color: #2E2323;
+    color: white;
 }
 
 .navbar-heading{
@@ -29,15 +32,22 @@
 .navbar-list-items{
     display: flex;
     margin-right: 10rem;
-    margin-top: 0.60rem;
+    margin-top: 0.80rem;
 }
 
 .navbar-list-items li{
     margin-left: 1.5rem;
+    color: white;
     list-style: none;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     cursor: pointer;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.navbar-list-items li:hover{
+    color: wheat;
 }
 
 .navbar-icons{
@@ -49,6 +59,13 @@
     position: relative;
     top: -5px;
     cursor: pointer;
+    color: white;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.navbar-icons i:hover{
+    color: wheat;
 }
 
 
@@ -56,4 +73,11 @@
     margin-left: 2rem;
     margin-top: 13px;
     cursor: pointer;
+    color: white;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.navbar-icons #icon-2:hover{
+    color: wheat;
 }
