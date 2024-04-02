@@ -17,7 +17,7 @@ i{
     display: flex;
     justify-content: space-around;
     /* margin-top: 1.3rem; */
-    height: 7.5vh;
+    height: 7vh;
     background-color: #2E2323;
     color: white;
 }
@@ -62,7 +62,7 @@ i{
 .navbar-icons i{
     font-size: 1.1rem;
     position: relative;
-    top: -5px;
+    top: -3px;
     cursor: pointer;
     color: white;
     transition-property: color;
@@ -92,7 +92,7 @@ i{
     background: url('/Educational-Website-using-HTML-CSS-JS/Hero\ Section\ Image.png') no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
 }
 
 .banner-content{
@@ -152,5 +152,27 @@ i{
     align-items: center;
 }
 
+.banner-buttons{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 0.80rem;
+}
 
+.banner-buttons button{
+    margin-left: 1rem;
+    border: 1px solid white;
+    /* color: white; */
+    padding: 12px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    
+}
 
