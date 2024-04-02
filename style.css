@@ -103,7 +103,7 @@ i{
 
 .banner-image{
     position: relative;
-    left: 18rem;
+    left: 20rem;
 }
 
 .banner-image img{
@@ -113,14 +113,44 @@ i{
 
 .banner-search{
     display: flex;
-    width: 620px;
+    justify-content: space-evenly;
+    width: 740px;
     height: 40px;
-    background-color: palegoldenrod;
+    /* background-color: rgb(228, 85, 2); */
     border-radius: 4px;
+}
+
+.banner-search:hover{
+    border: 1px solid black;
 }
 
 .search-select{
     background-color: #f3f3f3;
-    width: 50px;
+    width: 100px;
+    color: #2E2323;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
     border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
 }
+
+.search-input{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+}
+
+
+.search-icon {
+    width: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    align-items: center;
+}
+
+
+
